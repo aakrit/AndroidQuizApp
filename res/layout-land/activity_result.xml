@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="100"
+              android:background="#000">
+
+
+    <TextView
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultHeader"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="2dp"
+            android:textSize="25sp"
+            android:layout_weight="10"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+    <TextView
+            style="@style/TextStyle"
+            android:id="@+id/correctText"
+            android:background="#3c3c3c"
+            android:textColor="#0F0"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="5dp"
+            android:textSize="30sp"
+            android:layout_weight="10"/>
+
+    <TextView
+            style="@style/TextStyle"
+            android:id="@+id/incorrectText"
+            android:background="#3c3c3c"
+            android:textColor="#F00"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="15dp"
+            android:textSize="30sp"
+            android:layout_weight="10"/>
+
+    <TextView
+            style="@style/TextStyle"
+            android:id="@+id/scoreText"
+            android:background="#3c3c3c"
+            android:textColor="#FFF"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="15dp"
+            android:textSize="30sp"
+            android:layout_weight="10"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+        <Button
+                style="@style/ButtonStyle"
+                android:layout_weight="25"
+                android:text="@string/anotherQuiz"
+                android:id="@+id/anotherQuizButton"
+                />
+
+        <Button
+                style="@style/ButtonStyle"
+                android:layout_weight="75"
+                android:text="@string/reset"
+                android:id="@+id/resetButton"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="100"
+              android:background="#000"
+        >
+
+    <TextView
+            style="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:id="@+id/textView"
+            android:layout_margin="20dp"
+            android:paddingTop="15dp"
+            android:textSize="25sp"
+            android:layout_weight="10"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yourName"
+                android:textSize="20sp"
+                />
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editName"
+                android:layout_marginRight="20dp"
+                android:textColor="#FFF"
+                android:background="#3c3c3c"
+                android:textColorHint="#00F"
+                android:hint="@string/enterName"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:textSize="20sp"
+
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="40"
+            android:weightSum="99"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                style="@style/ButtonStyleSmall"
+                android:text="Latin"
+                android:id="@+id/latin_button"/>
+
+        <Button
+                style="@style/ButtonStyleSmall"
+                android:text="Greek"
+                android:id="@+id/greek_button"
+                />
+
+        <Button
+                style="@style/ButtonStyleSmall"
+                android:text="Mixed"
+                android:id="@+id/mixed_button"/>
+    </LinearLayout>
+
+    <Button
+            style="@style/ButtonStyle"
+            android:text="@string/exit"
+            android:id="@+id/exitButton"
+            android:layout_weight="20"/>
+
+</LinearLayout>

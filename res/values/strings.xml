@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Classics Quiz</string>
+    <string name="yourName">Your Name: </string>
+    <string name="enterName"> enter your name here...</string>
+    <string name="welcome">Welcome to the Classics Language Quiz</string>
+    <string name="startQuiz">Start Quiz</string>
+    <string name="exit">Exit</string>
+    <string name="questionNumberText">Question %d:</string>
+    <string name="pleaseSelectAnswer">Please select an answer to proceed.</string>
+    <string name="submit">Submit</string>
+    <string name="quit">Quit</string>
+    <string name="reset">Reset</string>
+    <string name="anotherQuiz">Another Quiz</string>
+    <string name="correct">Correct: %d</string>
+    <string name="incorrect">Incorrect: %d</string>
+    <string name="score">Score: %d%%</string>
+    <string name="nameResultHeader">%s, your results are:</string>
+    <string name="latin_string">Latin</string>
+    <string name="greek_string">Greek</string>
+    <string name="mixed_string">Mixed</string>
+    <string name="question_string">Which is %s</string>
+
+    <string-array
+            name="word_classics">
+
+        <item>aedificium|building|LAT</item>
+        <item>alacer|quick|LAT</item>
+        <item>dulcis|sweet|LAT</item>
+        <item>tardus|slow|LAT</item>
+        <item>pello|push|LAT</item>
+        <item>pendeo|hanging|LAT</item>
+        <item>sum|be|LAT</item>
+        <item>civis|citizen|LAT</item>
+        <item>dignus|worthy|LAT</item>
+        <item>equus|horse|LAT</item>
+        <item>acer|aceric|LAT</item>
+        <item>acus|acute|LAT</item>
+        <item>baca|baccate|LAT</item>
+        <item>avis|aviation|LAT</item>
+        <item>avunculus|uncle|LAT</item>
+        <item>canis|dog|LAT</item>
+        <item>casa|house|LAT</item>
+        <item>carbo|coal|LAT</item>
+        <item>carcer|jail|LAT</item>
+        <item>campus|field|LAT</item>
+        <item>cavus|hollow|LAT</item>
+        <item>celeber|famous|LAT</item>
+        <item>cardo|hinge|LAT</item>
+        <item>cutis|skin|LAT</item>
+        <item>decem|ten|LAT</item>
+        <item>deni|each|LAT</item>
+        <item>dexter|right|LAT</item>
+        <item>dignus|worthy|LAT</item>
+        <item>deus|god|LAT</item>
+        <item>dos|dowry|LAT</item>
+        <item>duo|two|LAT</item>
+        <item>durus|hard|LAT</item>
+        <item>eruca|catepillar|LAT</item>
+        <item>faba|bean|LAT</item>
+        <item>febris|fever|LAT</item>
+        <item>ferox|fierce|LAT</item>
+        <item>flavus|yellow|LAT</item>
+        <item>filum|thread|LAT</item>
+        <item>ferrum|iron|LAT</item>
+        <item>ficus|fig|LAT</item>
+        <item>fons|spring|LAT</item>
+        <item>femus|thigh|LAT</item>
+        <item>foris|outdoors|LAT</item>
+
+
+        <item>ankura|anchor|GRK</item>
+        <item>agora|marketplace|GRK</item>
+        <item>allotropos|strange|GRK</item>
+        <item>amblus|dim|GRK</item>
+        <item>bios|life|GRK</item>
+        <item>boreas|north|GRK</item>
+        <item>bradus|slow|GRK</item>
+        <item>thermos|hot|GRK</item>
+        <item>hippos|horse|GRK</item>
+        <item>hades|god_of_underworld|GRK</item>
+        <item>aduton|not_to_enter|GRK</item>
+        <item>aerios|air|GRK</item>
+        <item>aer|aero|GRK</item>
+        <item>aither|medium|GRK</item>
+        <item>aikia|torture|GRK</item>
+        <item>aigis|armour|GRK</item>
+        <item>haima|blood|GRK</item>
+        <item>ainigma|riddle|GRK</item>
+        <item>athera|gruel|GRK</item>
+        <item>aion|age|GRK</item>
+        <item>akakia|harmlessness|GRK</item>
+        <item>akari|acarid|GRK</item>
+        <item>akoluthos|follower|GRK</item>
+        <item>akron|edge|GRK</item>
+        <item>aktis|ray|GRK</item>
+        <item>algos|pain|GRK</item>
+        <item>aleuron|meal|GRK</item>
+        <item>allotropos|strange|GRK</item>
+        <item>alpha|alphabet|GRK</item>
+        <item>halos|round|GRK</item>
+        <item>ammos|sand|GRK</item>
+        <item>amphi|both_sides|GRK</item>
+        <item>amblus|dim|GRK</item>
+        <item>amphibolos|doubtful|GRK</item>
+        <item>amnos|lamb|GRK</item>
+        <item>ambus|cup|GRK</item>
+        <item>amphitheatron|theater|GRK</item>
+        <item>ana|backward|GRK</item>
+        <item>anabole|steroid|GRK</item>
+        <item>anagoge|spiritual|GRK</item>
+
+    </string-array>
+
+
+</resources>
+
+
+
